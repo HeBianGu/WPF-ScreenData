@@ -1,0 +1,14 @@
+﻿<Window x:Class="HeBianGu.Product.Appliaction.ScreenData.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HeBianGu.Product.Appliaction.ScreenData"
+        WindowStyle="None" AllowsTransparency="True" WindowState="Maximized"
+        xmlns:chinaaccent="clr-namespace:HeBianGu.Product.ScreenData.Module.ChinaAccent;assembly=HeBianGu.Product.ScreenData.Module.ChinaAccent"
+        mc:Ignorable="d" Width="1000"
+        Title="MainWindow">
+    <Viewbox Stretch="Fill">
+        <chinaaccent:SC_ChinaAccentControl CloseClick="SC_ChinaAccentControl_CloseClick"/> 
+    </Viewbox>
+</Window>

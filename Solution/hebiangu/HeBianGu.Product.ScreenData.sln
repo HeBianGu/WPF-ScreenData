@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{BE06818A-489A-42F6-9FE4-CB07712D6718}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{D54CC8B2-2663-4C1F-A211-93C7C254BD20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "General", "General", "{2528214C-B2DF-4988-A553-98CC486207F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module", "Module", "{8AB34169-B3F8-4A5D-8164-4B3BAD527048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.ScreenData.Module.ChinaAccent", "..\..\Source\Module\HeBianGu.Product.ScreenData.Module.ChinaAccent\HeBianGu.Product.ScreenData.Module.ChinaAccent.csproj", "{E6C62FF5-A9AB-41F4-94C3-4173F48A4B21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.ScreenData.Base.Style", "..\..\Source\Base\HeBianGu.Product.ScreenData.Base.Style\HeBianGu.Product.ScreenData.Base.Style.csproj", "{63275CAF-771F-4185-AAC8-16330BA271DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.Appliaction.ScreenData", "..\..\Source\Application\HeBianGu.Product.Appliaction.ScreenData\HeBianGu.Product.Appliaction.ScreenData.csproj", "{32F5D847-475B-4D49-AE25-862AD044A854}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6C62FF5-A9AB-41F4-94C3-4173F48A4B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C62FF5-A9AB-41F4-94C3-4173F48A4B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C62FF5-A9AB-41F4-94C3-4173F48A4B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C62FF5-A9AB-41F4-94C3-4173F48A4B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63275CAF-771F-4185-AAC8-16330BA271DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63275CAF-771F-4185-AAC8-16330BA271DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63275CAF-771F-4185-AAC8-16330BA271DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63275CAF-771F-4185-AAC8-16330BA271DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F5D847-475B-4D49-AE25-862AD044A854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F5D847-475B-4D49-AE25-862AD044A854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F5D847-475B-4D49-AE25-862AD044A854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F5D847-475B-4D49-AE25-862AD044A854}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6C62FF5-A9AB-41F4-94C3-4173F48A4B21} = {8AB34169-B3F8-4A5D-8164-4B3BAD527048}
+		{63275CAF-771F-4185-AAC8-16330BA271DB} = {D54CC8B2-2663-4C1F-A211-93C7C254BD20}
+		{32F5D847-475B-4D49-AE25-862AD044A854} = {BE06818A-489A-42F6-9FE4-CB07712D6718}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADD68DC1-E7FF-4B98-B761-5F3FFD9003E4}
+	EndGlobalSection
+EndGlobal
